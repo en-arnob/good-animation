@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { GiBison, GiHamburgerMenu } from "react-icons/gi";
+import { GiBison } from "react-icons/gi";
 
 const Nav = () => {
-  const [isActive, setIsActive] = useState(false);
-
   return (
     <nav className='w-full z-50 inset-x-0 fixed justify-center items-center '>
       <div className='w-full bg-rose-800 flex items-center px-6 py-3 shadow-xl'>
